@@ -30,7 +30,7 @@ export const About: React.FC<AboutProps> = ({ onNavigate }) => {
           <div className="lg:col-span-5 relative">
             <div className="aspect-square rounded-2xl overflow-hidden border-2 border-slate-700/80 shadow-2xl bg-slate-950 relative">
               <img
-                src="/ashley_lalfam.jpg"
+                src={FOUNDER_INFO.avatar}
                 alt="Ashley Lalfam"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

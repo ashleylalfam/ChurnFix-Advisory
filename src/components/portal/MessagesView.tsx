@@ -4,6 +4,7 @@ import { PortalMessage } from '../../types';
 import { getCurrentUser, UserAccount } from '../../services/auth';
 import { getUserDataStore, saveUserDataStore, DEFAULT_WELCOME_MESSAGE } from '../../services/dataStorage';
 import { Send, Sparkles, Bot, ShieldCheck, RefreshCw } from 'lucide-react';
+import ashleyHeadshot from '../../assets/images/ashley_lalfam_headshot_1785719693060.jpg';
 
 interface MessagesViewProps {
   user?: UserAccount;
@@ -133,7 +134,7 @@ export const MessagesView: React.FC<MessagesViewProps> = ({ user: propUser }) =>
         <div className="flex items-center gap-3">
           <div className="relative">
             <img
-              src="/ashley_lalfam.jpg"
+              src={ashleyHeadshot}
               alt="Ashley Lalfam"
               referrerPolicy="no-referrer"
               className="w-10 h-10 rounded-full object-cover border-2 border-blue-600"
@@ -165,7 +166,7 @@ export const MessagesView: React.FC<MessagesViewProps> = ({ user: propUser }) =>
           >
             {m.isAdvisor && (
               <img
-                src={m.avatar || '/ashley_lalfam.jpg'}
+                src={m.avatar || ashleyHeadshot}
                 alt={m.sender}
                 referrerPolicy="no-referrer"
                 className="w-8 h-8 rounded-full object-cover shrink-0 mt-1 border border-slate-200"

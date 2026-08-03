@@ -1,9 +1,10 @@
 import { CaseStudy, Testimonial, ServiceItem, PricingPlan, BlogArticle, AuditRecommendation, ClientProfile, PortalMessage } from '../types';
+import ashleyHeadshot from '../assets/images/ashley_lalfam_headshot_1785719693060.jpg';
 
 export const FOUNDER_INFO = {
   name: 'Ashley Lalfam',
   title: 'Founder & SaaS Payment Recovery Specialist',
-  avatar: '/ashley_lalfam.jpg',
+  avatar: ashleyHeadshot,
   bio: 'Ashley has spent over 7 years optimizing subscription payment rails, gateway retry schedules, and dunning automation for scaling SaaS companies. Prior to founding ChurnFix Advisory, Ashley analyzed over $180M in subscription recurring billing logs across Stripe, Paddle, and Chargebee.',
   mission: 'To eliminate involuntary churn for high-growth SaaS companies by turning failed payment retries into predictable, automated revenue recovery.',
   credentials: [
@@ -323,7 +324,7 @@ By switching from default 3-day retries to an issuer-aware retry schedule, SaaS 
     author: {
       name: 'Ashley Lalfam',
       role: 'Founder & SaaS Payment Recovery Specialist',
-      avatar: '/ashley_lalfam.jpg'
+      avatar: ashleyHeadshot
     },
     publishedAt: '2026-07-14',
     readTime: '6 min read',
@@ -372,7 +373,7 @@ Never lock users out instantly on day 1 of a payment failure. Provide a 7 to 14-
     author: {
       name: 'Ashley Lalfam',
       role: 'Founder & SaaS Payment Recovery Specialist',
-      avatar: '/ashley_lalfam.jpg'
+      avatar: ashleyHeadshot
     },
     publishedAt: '2026-06-28',
     readTime: '8 min read',
@@ -407,7 +408,7 @@ Fixing involuntary churn requires **fixing billing rails**, which can be done in
     author: {
       name: 'Ashley Lalfam',
       role: 'Founder & SaaS Payment Recovery Specialist',
-      avatar: '/ashley_lalfam.jpg'
+      avatar: ashleyHeadshot
     },
     publishedAt: '2026-05-19',
     readTime: '5 min read',
@@ -500,7 +501,7 @@ export const INITIAL_MESSAGES: PortalMessage[] = [
     id: 'm1',
     sender: 'Ashley Lalfam (Founder)',
     role: 'SaaS Payment Recovery Specialist',
-    avatar: '/ashley_lalfam.jpg',
+    avatar: ashleyHeadshot,
     text: 'Welcome to your ChurnFix Advisory Client Portal, Marcus! I have completed the forensic review of your Stripe transaction logs from Q2. We identified a total of $58,000/mo in uncollected subscription invoices due to soft decline retry timing.',
     timestamp: 'Yesterday at 10:15 AM',
     isAdvisor: true
@@ -516,7 +517,7 @@ export const INITIAL_MESSAGES: PortalMessage[] = [
     id: 'm3',
     sender: 'Ashley Lalfam (Founder)',
     role: 'SaaS Payment Recovery Specialist',
-    avatar: '/ashley_lalfam.jpg',
+    avatar: ashleyHeadshot,
     text: 'Awesome to hear! Next up is implementing Recommendation #3 (the magic-link payment update UX). I have attached the technical specifications in your Downloads tab.',
     timestamp: 'Today at 09:05 AM',
     isAdvisor: true,

@@ -1,5 +1,6 @@
 import { PortalMessage, AuditRecommendation } from '../types';
 import { UserAccount } from './auth';
+import ashleyHeadshot from '../assets/images/ashley_lalfam_headshot_1785719693060.jpg';
 
 export interface UserDataStore {
   messages: PortalMessage[];
@@ -16,7 +17,7 @@ export const DEFAULT_WELCOME_MESSAGE: PortalMessage = {
   id: 'welcome-ashley-01',
   sender: 'Ashley Lalfam (Founder)',
   role: 'SaaS Payment Recovery Specialist',
-  avatar: '/ashley_lalfam.jpg',
+  avatar: ashleyHeadshot,
   text: "Welcome to ChurnFix Advisory. I'm Ashley. I'm here to help you identify payment recovery opportunities and reduce involuntary churn. Feel free to ask me anything or upload your payment data to get started.",
   timestamp: 'Just now',
   isAdvisor: true
@@ -139,7 +140,7 @@ export const addUserMessage = (userId: string, userMsgText: string, advisorReply
     id: `msg-${Date.now() + 1}`,
     sender: 'Ashley Lalfam (Founder)',
     role: 'SaaS Payment Recovery Specialist',
-    avatar: '/ashley_lalfam.jpg',
+    avatar: ashleyHeadshot,
     text: advisorReplyText,
     timestamp: 'Just now',
     isAdvisor: true
