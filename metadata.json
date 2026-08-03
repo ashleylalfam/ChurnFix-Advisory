@@ -1,0 +1,6 @@
+{
+  "name": "ChurnFix Advisory",
+  "description": "Premium SaaS Payment Recovery Advisory Platform for reducing involuntary churn and recovering lost subscription MRR.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
